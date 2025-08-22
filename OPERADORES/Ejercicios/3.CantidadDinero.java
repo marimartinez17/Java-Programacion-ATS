@@ -18,13 +18,13 @@ public class Ejercicio3 {
         // Entrada de datos
         System.out.print("Ingrese la cantidad de dinero que posee Guillermo: ");
         guillermo = entrada.nextFloat();
-        
+
+        // Calculos
         luis = guillermo/2;
-        
         juan = (guillermo + luis)/2;
-        
         total = guillermo+luis+juan;
-        
+
+        // Salida de datos
         System.out.println("Guillermo tiene : "+guillermo+"$");
         System.out.println("Luis tiene: "+luis+"$");
         System.out.println("Juan tiene: "+juan+"$");
