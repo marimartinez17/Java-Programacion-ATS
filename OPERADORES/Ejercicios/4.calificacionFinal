@@ -24,8 +24,6 @@ public class App {
         System.out.print("Ingrese la nota del parcial final: ");
         parcialFinal = entrada.nextFloat();
         
-        float calificacion;
-        
         participacion *= 0.10f;
         parcial1 *= 0.25f;
         parcial2 *= 0.25f;
