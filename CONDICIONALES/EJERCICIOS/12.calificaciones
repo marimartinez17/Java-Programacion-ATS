@@ -1,0 +1,45 @@
+/*
+ * Pedir una nota del 1 al 10 y mostrarla de la forma: Insuficiente, suficiente, bien, notable y sobresaliente
+ */
+
+package com.mycompany.calificaciones;
+
+import javax.swing.JOptionPane;
+
+public class App {
+
+    public static void main(String[] args) {
+        int nota;
+        
+        // Solicitar nota del estudiante
+        nota = Integer.parseInt(JOptionPane.showInputDialog("Ingrese la nota del estudiante: "));
+        
+        // Clasificar calificación del estudiante
+        switch(nota){
+            case 1:
+            case 2:
+            case 3:
+                JOptionPane.showMessageDialog(null, "Su calificación es: Insuficiente.");
+                break;
+            case 4:
+            case 5:
+                JOptionPane.showMessageDialog(null, "Su calificación es: Suficiente.");
+                break;
+            case 6:
+            case 7:
+                JOptionPane.showMessageDialog(null, "Su calificación es: Bien.");
+                break;
+            case 8:
+            case 9:
+                JOptionPane.showMessageDialog(null, "Su calificación es: ¡Notable!");
+                break;
+            case 10:
+                JOptionPane.showMessageDialog(null, "Su calificación es: ¡Sobresaliente!");
+                break;
+            // Si la nota no está en la escala del 1 al 10
+            default:
+                JOptionPane.showMessageDialog(null, "Nota inválida.\n(La escala va del 1 al 10)");
+                break;
+        }
+    }
+}
