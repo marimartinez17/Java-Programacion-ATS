@@ -25,19 +25,24 @@ public class App {
         // Realizar operación y mostrar resultado
         
         switch (op) {
+            // Adición
             case 'S':
                 JOptionPane.showMessageDialog(null,"La suma de "+num1+" y "+num2+" es: "+(num1+num2));
                 break;
+            // Sustracción
             case 'R':
                 JOptionPane.showMessageDialog(null,"La resta de "+num1+" y "+num2+" es: "+(num1-num2));
                 break;
+            // Multiplicación
             case 'P':
             case 'M':
                 JOptionPane.showMessageDialog(null,"El producto de "+num1+" y "+num2+" es: "+(num1*num2));
                 break;
+            // División
             case 'D':
                 JOptionPane.showMessageDialog(null,"La división de "+num1+" y "+num2+" es: "+(num1/num2));
                 break;
+            // Operación inválida
             default:
                 JOptionPane.showMessageDialog(null,"Operación inválida.");
         }
