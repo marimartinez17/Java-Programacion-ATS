@@ -1,7 +1,5 @@
 /*
-    Construir un programa que calcule y muestre por pantalla
-    las raices de la ecuacion de segundo grado de coeficientes
-    reales.
+    Construir un programa que calcule y muestre por pantallalas raices de la ecuacion de segundo grado de coeficientes reales.
  */
 
 package com.mycompany.raices;
