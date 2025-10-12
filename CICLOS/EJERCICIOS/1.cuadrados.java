@@ -12,13 +12,13 @@ public class App {
         int num;
         
         // Solicitar número al usuario
-        num = Integer.parseInt(JOptionPane.showInputDialog("Ingtrese un número:"));
+        num = Integer.parseInt(JOptionPane.showInputDialog("Ingrese un número:"));
         
         while (num > 0){
             // Calcular cuadrado del número
             JOptionPane.showMessageDialog(null, "El cuadrado del número es: "+(Math.pow(num, 2)));
             // Pedir otro número
-            num = Integer.parseInt(JOptionPane.showInputDialog("Ingtrese otro número:"));
+            num = Integer.parseInt(JOptionPane.showInputDialog("Ingrese otro número:"));
         }        
         
 //        // Con casting de double a int
