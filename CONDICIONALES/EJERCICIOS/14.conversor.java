@@ -41,26 +41,32 @@ public class App {
                 // Decagramos
                 conversion = masa * 100;
                 JOptionPane.showMessageDialog(null, "La masa es de: "+conversion+" dag.");
+                break;
             case 3:
                 // Gramos
                 conversion = masa * 1000;
                 JOptionPane.showMessageDialog(null, "La masa es de: "+conversion+" g."); 
+                break;
             case 4:
                 // Decigramos
                 conversion = masa * 10000;
                 JOptionPane.showMessageDialog(null, "La masa es de: "+conversion+" dg.");
+                break;
             case 5:
                 // Centigramos
                 conversion = masa * 100000;
                 JOptionPane.showMessageDialog(null, "La masa es de: "+conversion+" cg.");
+                break;
             case 6:
                 // Miligramos
                 conversion = masa * 1000000;
                 JOptionPane.showMessageDialog(null, "La masa es de: "+conversion+" mg.");
+                break;
             case 7:
                 // Salir
                 break;
             default:
+                
                 // Error
                 JOptionPane.showMessageDialog(null, "Opción invalida.");
         }
