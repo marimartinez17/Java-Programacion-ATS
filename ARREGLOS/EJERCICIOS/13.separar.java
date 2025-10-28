@@ -14,10 +14,8 @@ import java.util.Scanner;
 public class App {
 
     public static void main(String[] args) {
-        // Declaración de las tablas
+        // Declaración de la tabla inicial
         int tablaInicial[] = new int[10];
-        int tablaPar[] = new int[10];
-        int tablaImpar[] = new int[10];
         
         // Declaración del scánner
         Scanner entrada = new Scanner(System.in);
@@ -40,6 +38,10 @@ public class App {
                 contImpar++;
             }
         }
+        
+        // Declaración de las tablas
+        int tablaPar[] = new int[contPar];
+        int tablaImpar[] = new int[contImpar];
         
         // Mostrar arreglos separados
         System.out.print("Tabla inicial:");
