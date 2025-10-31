@@ -1,5 +1,5 @@
 /*
- * Ej # 3: Crear y cargar dos matrices de tamaño 3x3, sumarlas y mostrar su suma
+ * Ej # 2: Crear y cargar dos matrices de tamaño 3x3, sumarlas y mostrar su suma
  */
 
 package com.mycompany.sumamatrices;
