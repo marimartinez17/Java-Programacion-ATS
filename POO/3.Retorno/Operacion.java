@@ -29,11 +29,4 @@ public class Operacion {
         div = num1 / num2;
         return div;
     }
-
-    public void resultados(int sum, int res, int mul, int div){
-        System.out.println("Suma: "+suma);
-        System.out.println("Resta: "+resta);
-        System.out.println("Multiplicacion: "+mult);
-        System.out.println("Division: "+div);
-    }
 }
