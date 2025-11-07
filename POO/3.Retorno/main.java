@@ -11,12 +11,9 @@ public class main {
         
         Operacion op = new Operacion();
         
-        // Llamado de los métodos en java
-        int suma = op.sumar(n1, n2);
-        int resta = op.restar(n1, n2);
-        int mult = op.multiplicar(n1, n2);
-        int div = op.dividir(n1, n2);
-        
-        op.resultados(suma,resta,mult,div);
+        System.out.println("La suma es: "+op.sumar(n1, n2));
+        System.out.println("La resta es: "+op.restar(n1, n2));
+        System.out.println("La multiplicacipn es: "+op.multiplicar(n1, n2));
+        System.out.println("La division es: "+op.dividir(n1, n2));
     }
 }
